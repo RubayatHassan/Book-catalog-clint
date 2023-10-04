@@ -122,19 +122,19 @@ const AllProducts = ({ allProducts, category, limit = Number.POSITIVE_INFINITY }
 
 
               {
-                // category ? (<p
-                //   onClick={() => addPcHandler(product)}
-                //   style={{
-                //     fontSize: "15px",
-                //     marginTop: "20px",
-                //     backgroundColor: "black",
-                //     color: "white",
-                //     width: "100%",
-                //     padding: "2px 5px ",
-                //     fontWeight: "300",
-                //     letterSpacing: "3px",
-                //     textAlign: "center",
-                //   }}
+                category ? (<p
+                  onClick={() => addPcHandler(product)}
+                  style={{
+                    fontSize: "15px",
+                    marginTop: "20px",
+                    backgroundColor: "black",
+                    color: "white",
+                    width: "100%",
+                    padding: "2px 5px ",
+                    fontWeight: "300",
+                    letterSpacing: "3px",
+                    textAlign: "center",
+                  }}
                 >
                   ADD <ArrowRightOutlined />
                 </p>)
