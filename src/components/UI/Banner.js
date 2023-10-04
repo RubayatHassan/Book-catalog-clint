@@ -72,7 +72,7 @@ const Banner = () => (
 							}}
 						></div>
 
-						<p
+						{/* <p
 							style={{
 								display: "flex",
 								justifyContent: "space-between",
@@ -90,7 +90,7 @@ const Banner = () => (
 							<span>
 								<ProfileOutlined /> PC
 							</span>
-						</p>
+						</p> */}
 
 						<p style={{ fontSize: "20px" }}>
 							Discover a world of possibilities as you embark on your journey to create the dream PC of your desires. Whether you're a gaming enthusiast, content creator, or a tech-savvy individual seeking peak performance, our PC Building Hub has you covered.
