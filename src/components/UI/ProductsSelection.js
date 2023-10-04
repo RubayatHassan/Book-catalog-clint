@@ -122,11 +122,11 @@ const ProductsSelection = ({ allProducts }) => {
 
 							</p>
 
-							<p style={{ fontSize: "15px" }}>
+							{/* <p style={{ fontSize: "15px" }}>
                 {product?.status.length > 100
                   ? news?.description.slice(0, 70) + "..."
                   : news?.description}
-              </p>
+              </p> */}
 
 
 
