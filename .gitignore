@@ -37,4 +37,9 @@ next-env.d.ts
 .vercel
 
 
-src
+assets
+components
+pages
+redux
+styles
+
