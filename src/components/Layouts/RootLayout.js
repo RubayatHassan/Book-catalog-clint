@@ -128,14 +128,14 @@ const RootLayout = ({ children }) => {
 						</Button>
 					</Link>)
 						:
-						// (<items>
-						// 	<Button style={{
-						// 		marginLeft: "15px",
-						// 		fontSize: "16px"
-						// 	}} onClick={() => signOut()} type="primary" danger ghost>
-						// 		LOGOUT
-						// 	</Button>
-						// </items>)}
+						(<items>
+							<Button style={{
+								marginLeft: "15px",
+								fontSize: "16px"
+							}} onClick={() => signOut()} type="primary" danger ghost>
+								LOGOUT
+							</Button>
+						</items>)}
 
 				</Menu>
 			</Header>
